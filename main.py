@@ -1,8 +1,8 @@
 from src.recommender import RecommenderSystem
 from src.utils import print_movies
 
-movies_path = "data/movies.csv"
-ratings_path = "data/ratings.csv"
+movies_path = "data\large_dataset_sample.csv"
+ratings_path = "data\large_dataset.csv"
 
 rec = RecommenderSystem(movies_path, ratings_path)
 
